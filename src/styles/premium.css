@@ -1,0 +1,43 @@
+body {
+  background: #020617;
+  color: white;
+  font-family: Inter;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.popular {
+  border: 1px solid orange;
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  background: orange;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
